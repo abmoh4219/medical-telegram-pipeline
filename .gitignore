@@ -9,6 +9,7 @@ venv/
 *.env
 
 # Data
+*data/
 data/raw/*
 data/processed/*
 !data/raw/.gitkeep
@@ -21,3 +22,5 @@ data/processed/*
 # Misc
 *.log
 *.DS_Store
+*.session
+session_medical.session
