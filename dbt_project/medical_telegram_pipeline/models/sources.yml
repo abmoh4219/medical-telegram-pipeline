@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    database: medical_db
+    schema: public
+    tables:
+      - name: raw_messages

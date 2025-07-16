@@ -14,6 +14,8 @@ data/raw/*
 data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+dbt_project/medical_telegram_pipeline/target/
+dbt_project/medical_telegram_pipeline/logs/
 
 # Databases
 *.db

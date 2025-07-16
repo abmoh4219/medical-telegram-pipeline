@@ -1,0 +1,11 @@
+medical_telegram_pipeline:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      port: 5432
+      user: user
+      pass: "{{ env_var('POSTGRES_PASSWORD') }}"
+      dbname: medical_db
+      schema: public
